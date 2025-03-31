@@ -36,7 +36,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/nomeEditTExt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="53dp"
@@ -64,10 +64,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.02"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+        app:layout_constraintTop_toBottomOf="@+id/nomeEditTExt" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/passwordEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
@@ -87,6 +87,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="45dp"
         android:backgroundTint="#FFFFFF"
+        android:onClick="signInButtonClicked"
         android:text="LOGIN"
         android:textColor="#E40B0B"
         android:textSize="24sp"
@@ -95,7 +96,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+        app:layout_constraintTop_toBottomOf="@+id/passwordEditText" />
 
     <Button
         android:id="@+id/button2"
@@ -103,6 +104,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="42dp"
         android:backgroundTint="#00FFFFFF"
+        android:onClick="registrazioneButtonClicked"
         android:text="REGISTRATI"
         android:textSize="24sp"
         app:cornerRadius="0dp"
