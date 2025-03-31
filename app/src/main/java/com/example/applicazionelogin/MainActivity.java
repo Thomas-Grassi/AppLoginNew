@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void registrazioneButtonClicked(View view) {
-        Intent intent1 = new Intent(this, SignUp.class);
-        startActivity(intent1);
+        Intent intent = new Intent(this, SignUp.class);
+        startActivity(intent);
     }
 }

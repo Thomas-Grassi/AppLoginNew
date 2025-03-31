@@ -53,6 +53,7 @@
         android:layout_marginTop="155dp"
         android:layout_marginBottom="200dp"
         android:backgroundTint="#FFFFFF"
+        android:onClick="goToLoginButtonClicked"
         android:text="ESCI"
         android:textColor="#FD0000"
         android:textSize="24sp"
